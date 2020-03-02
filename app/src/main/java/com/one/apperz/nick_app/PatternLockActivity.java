@@ -1,6 +1,7 @@
 package com.one.apperz.nick_app;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -120,6 +121,7 @@ public class PatternLockActivity extends AppCompatActivity {
             int backColor = ResourcesCompat.getColor(getResources(), R.color.blue, null);
             relativeLayout.setBackgroundColor(backColor);
             status_password.setBackgroundColor(backColor);
+            status_password.setTextColor(Color.WHITE);
 
         }
     }
